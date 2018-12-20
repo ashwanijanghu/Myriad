@@ -20,3 +20,8 @@
 ### Improvements
 - __Image Loading FW:__ A image loading framework can be created
 - __UI test cases:__ UI test case can be added
+
+
+### Future
+- __Paging Library:__ Paging Library provide under Jetpack or Android Architecture components could be used with power of Room and LiveData
+- __Data Binding:__ More emphasis could be lay on data binding for less boilerplate code
