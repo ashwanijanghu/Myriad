@@ -9,7 +9,7 @@
 </div>
 
 ### Features
--__MVVM:__ A simple implementation of MMVM architecture
+- __MVVM:__ A simple implementation of MMVM architecture
 - __Un-Squared:__ No Square open source library is used. Implementation is in term of root components of Android
 - __Endless GridView:__ Endless Grid View continously fetching data from open API
 - __Material Design:__ Follow principals of Material design
