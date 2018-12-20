@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Myriad</string>
+
+    <string name="font_family_condensed">sans-serif-condensed</string>
+    <string name="font_family_light">sans-serif-light</string>
+    <string name="font_family_regular">sans-serif-regular</string>
+    <string name="font_family_medium">sans-serif-medium</string>
+
+    <string name="no_desc">No description available</string>
+</resources>

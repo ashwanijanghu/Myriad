@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools">
+
+    <RelativeLayout android:layout_width="match_parent"
+                    android:id="@+id/topLayout"
+                    android:layout_height="match_parent"
+                    android:background="@color/background_regular">
+
+        <RelativeLayout
+                android:id="@+id/toolbar_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            <android.support.v7.widget.Toolbar
+                    android:id="@+id/toolbar_home"
+                    style="@style/ToolBarMasterStyleDark"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/toolbar_height"
+                    app:subtitleTextAppearance="@style/Toolbar.SubtitleTextMasterLight"
+                    app:titleTextAppearance="@style/Toolbar.TitleTextMasterLight" />
+
+            <RelativeLayout
+                    android:id="@+id/toolbar"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/toolbar_height"
+                    android:layout_centerHorizontal="true">
+
+                <ImageView
+                        android:id="@+id/menuCamera"
+                        android:layout_width="56dp"
+                        android:layout_height="56dp"
+                        android:layout_centerVertical="true"
+                        android:contentDescription="TODO" android:padding="@dimen/spacing_medium_2"
+                        app:srcCompat="@drawable/ic_camera"/>
+
+                <android.support.v7.widget.AppCompatImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_centerInParent="true"
+                        android:padding="@dimen/spacing_regular"
+                        app:srcCompat="@drawable/ic_myriad"/>
+
+                <ImageView
+                        android:id="@+id/nightMode"
+                        android:layout_width="56dp"
+                        android:layout_height="56dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:contentDescription="TODO" android:padding="@dimen/spacing_medium_2"
+                        app:srcCompat="@drawable/ic_night_mode_day"/>
+            </RelativeLayout>
+        </RelativeLayout>
+        <FrameLayout
+                android:id="@+id/myriadView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/toolbar_layout"
+                android:layout_margin="8dp"
+                android:layout_centerInParent="true"/>
+
+    </RelativeLayout>
+</layout>
